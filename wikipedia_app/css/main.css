@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  text-align: center;
+  /*background-color: #96ceb4;*/
+}
+
+img {
+  height: 250px;
+}
+
+#submitContainer {
+    padding: 20px;
+}
+
+#searchTerm {
+    padding: 8px 14px;
+    font-size: 18px;
+}
+
+#submitContainer button {
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    background-color: #d6d6d6;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.listItem {
+    display: block;
+    background-color: #eee;
+    padding: 15px;
+    border-left: 5px solid #555;
+    margin: 20px;
+    text-decoration: none;
+    color: #222;
+    transition: all 200ms;
+}
+
+.listItem:hover {
+    border-left-color: green;
+    box-shadow: -8px 10px 25px -10px rgba(0, 0, 0, .5);
+    transform: translateX(5px) translateY(-5px);
+}
